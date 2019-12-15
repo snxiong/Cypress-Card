@@ -1,0 +1,56 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" width="750" height="375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style>
+	text {
+		fill: #000000;
+		font-family: Helvetica;
+		font-size: 20px;
+	}
+	
+	.name_c {
+		font-weight: bold;
+	}
+	
+	div {
+		display: none;
+	}
+	
+	.company_c {
+		font-weight: bold;
+	}
+</style>
+
+<g>
+   <path class="color1" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M0 0 L50 50 L750 50 L750 0 L0 0 Z"> </path>
+   <path class="color2" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M0 0 L50 50 L50 325 L0 375 L0 0 Z"> </path>
+   <path class="color3" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M0 375 L50 325 L750 325 L750 375 L0 375 Z"> </path>
+   <path class="color4" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M50 50 L750 50 L750 325 L50 325 L50 50 Z"> </path>
+</g>
+
+	<text class="name_c" x="85" y="75"></text>
+	<text class="position_c" x="85" y="100"></text>
+	<text class="company_c" x="85" y="150"></text>
+	<text class="city_c" x="85" y="175"></text>
+	<text class="state_c" x="85" y="200"></text>
+	<text class="phone_c" x="85" y="250"></text>
+	<text class="email_c" x="85" y="275"></text>
+	<text class="website_c" x="85" y="300"></text>
+	
+	<div class="name_c">465</div>
+	<div class="position_c">465</div>
+	<div class="company_c">465</div>
+	<div class="city_c">465</div>
+	<div class="state_c">465</div>
+	<div class="phone_c">465</div>
+	<div class="email_c">465</div>
+	<div class="website_c">465</div>
+	
+<g>
+	<image class="svglogo" x="575" y="112.5" width="150" height="150"></image>
+</g>
+</svg> 

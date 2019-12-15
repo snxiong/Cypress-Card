@@ -1,0 +1,14 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" width="750" height="375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style>
+	text {
+		fill: #000000;
+		font-family: Helvetica;
+		font-size: 100px;
+		font-weight: bold;
+	}
+</style>
+
+	<text class="website_c" x="150" y="225">PREVIEW</text>
+</svg> 

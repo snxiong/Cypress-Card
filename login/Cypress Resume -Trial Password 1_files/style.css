@@ -1,0 +1,475 @@
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+select {border: 1px solid #444A42; padding-left:2px;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+input { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+body{font-family :verdana;font-size:12px;}
+#helpdiv {width:600px;}
+#helpdiv2 {width:760px;}
+#wrapper{position:relative;}
+
+form {margin: 0;}
+
+
+#step1gif {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#step2gif {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#mainformname {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#mainformcontact {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#mainformwork {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#mainformeducation {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+#mainformcert {
+ position:absolute;
+ top:20px;
+ right:20px;}
+ 
+html { height: 101%; -ms-overflow-y : scroll; /* setting height to 101% forces scroll bar to display */ }
+
+html, body {
+font-family :verdana;
+font-size:12px;
+height: 100%;
+margin: 0 0 1px;
+padding: 0;}
+
+.specifictext input[type=text]{
+border: 1px solid #444A42;
+width: 200px;
+background : #EAEAEA;}
+
+.specifictext input[type=text]:hover{
+border: 1px solid #0B0C0A;
+width: 200px;
+background : #FFFFFF;}
+
+.specifictext input[type=submit]{
+border: 1px solid #444A42;
+width: 35px;
+background : #EAEAEA;}
+
+.specifictext input[type=submit]:hover{
+border: 1px solid #444A42;
+width: 35px;
+background : #FFFFFF;}
+
+.main{
+background : #ffffff;
+width : 800px;
+
+}
+
+.navbar {
+width : 800px;
+padding: 0px 0px;
+background : #d9d0aa;}
+
+img {
+margin: 0px;
+padding: 0px;}
+
+.statement{
+background : #eaeed4;
+padding: 8px 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;}
+
+.jobdiv{
+border: 1px solid #444A42;
+background : #eeeeee;
+padding: 8px 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;}
+
+.jobtitle {
+background : #d9d3bc;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;}
+
+.contact{
+border : 3px solid #8789E7;
+background : #FFFFD9;
+padding: 10px 0px;
+width : 950px;
+height : 100px;
+margin : 25px;}
+
+#ajax_response{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response2{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response3{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response4{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response5{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response6{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response7{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response8{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response9{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+#ajax_response10{
+border : 1px solid #8789E7;
+background : #FFFFFF;
+position:absolute;
+display:none;
+padding:2px 2px;}
+
+.list {
+padding:0px 0px;
+margin:0px;
+list-style : none;}
+
+.list li a{
+text-align : left;
+padding:2px;
+cursor:pointer;
+display:block;
+text-decoration : none;
+color:#000000;}
+
+.selected{
+background : #CCCFF2;}
+
+.bold{
+font-weight:bold;
+color: #131E9F;}
+
+.about{
+text-align:right;
+font-size:10px;
+margin : 10px 4px;}
+
+.about a{
+color:#BCBCBC;
+text-decoration : none;}
+
+.about a:hover{
+color:#575757;
+cursor : default;}
+
+textarea#styled {
+width: 98%;
+height: 40px;
+border: 3px solid #cccccc;
+padding: 5px;
+font-family :verdana;
+font-size:12px;
+background-image: url(bg.gif);
+background-position: bottom right;
+background-repeat: no-repeat;}
+
+textarea#letterstyled {
+width: 98%;
+height: 250px;
+border: 3px solid #cccccc;
+padding: 5px;
+font-family :verdana;
+font-size:12px;
+background-image: url(bg.gif);
+background-position: bottom right;
+background-repeat: no-repeat;}
+
+#banner{
+border-bottom-width:4px;
+border-bottom-style:solid;
+border-bottom-color:#c0c663;}
+
+/*
+//THIS IS THE WELCOME PAGE STYLES ONLY
+background : #FFFFD9;
+*/
+#welcome1 {
+background : white;	
+width : 800px;
+border-bottom-width:4px;
+border-bottom-style:solid;
+border-bottom-color:#c0c663;}
+
+#help {
+background : #ffffff;	
+width : 800px;}
+
+.welcomesection{
+height: 135px;	
+width : 200px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+.publishsection{
+height: 152px;
+width : 500px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+.publishsection2{
+height: 152px;
+width : 200px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+.documentsection{	
+width : 780px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+#profilesection1{
+width : 300px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+#profilesection2{
+width : 300px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+#profilesection3{
+width : 300px;
+background-color: #ffffff;
+border: 1px solid #8d8d8d;}
+
+.getspecificsection{
+width : 600px;
+background-color: #ffffff;
+margin-right: 7px;
+border: 1px solid #8d8d8d;}
+
+/*
+//THIS IS THE MAINFORM SECTION STYLES ONLY
+background : #FFFFD9;
+*/
+.mainformsection{
+width : 600px;
+background-color: #ffffff;
+margin-right: 7px;
+border: 1px solid #8d8d8d;}
+
+.mainformsectionwithproblem {
+position:relative;
+width : 600px;
+margin-right: 7px;
+border : 1px solid #FF0000;
+background-color: #ffffff;}
+
+.menutext{
+font-family: Verdana; 
+font-size:12px;}
+
+.mainformtext input[type=text]{
+border: 1px solid #444A42;
+background : #FFFFFF;}
+
+.mainformtext input[type=text]:hover{
+border: 1px solid #0B0C0A;
+background : #FFFFFF;}
+
+.mainformtext input[type=checkbox]{
+background : #FFFFFF;}
+
+.mainformtext input[type=checkbox]:hover{
+background : #EAEAEA;}
+
+.mainformtextprob input[type=text]{
+border: 1px solid #444A42;
+background : #ff5f5f;}
+
+.mainformtextprob input[type=text]:hover{
+border: 1px solid #0B0C0A;
+background : #FFFFFF;}
+
+.mainformbutton input[type=submit]{
+border: 1px solid #444A42;
+width: 35px;
+background : #EAEAEA;}
+
+.mainformbutton input[type=submit]:hover{
+border: 1px solid #444A42;
+width: 35px;
+background : #FFFFFF;}
+
+.mainformheading {
+font : mekanik let;
+font-size:18px;
+font-weight:bold;
+line-height:2em;}
+
+.linktext{
+line-height:200%;
+font-family: Verdana; 
+font-size:12px;
+color:#666666; 
+text-decoration:underline;}
+
+.redlinktext{
+line-height:200%;
+font-family: Verdana; 
+font-size:12px;
+color:red;
+text-decoration:underline;}
+
+.smallheading {
+font-family: Verdana; 
+font-size:14px;}
+
+.MinMaxDivStatements {
+height: 25;
+background-color:#c0c663}
+
+.MinMaxDivAbilities {
+height: 25;
+background-color:#c0c663}
+
+.MinMaxDivTech {
+height: 25;
+background-color:#c0c663}
+
+.MinMaxText {
+line-height:200%;
+font-family: Verdana; 
+font-size:17px;}
+
+#loading{visibility:hidden; padding-left:5px;}
+#loading2{visibility:hidden; padding-left:5px;}
+#loading3{visibility:hidden; padding-left:5px;}
+#loading4{visibility:hidden; padding-left:5px;}
+#loading5{visibility:hidden; padding-left:5px;}
+#loading6{visibility:hidden; padding-left:5px;}
+#loading7{visibility:hidden; padding-left:5px;}
+#loading8{visibility:hidden; padding-left:5px;}
+#loading9{visibility:hidden; padding-left:5px;}
+#loading10{visibility:hidden; padding-left:5px;}
+
+/*Hidden check boxes that track when and if the collapsing divs are hidden or shown*/
+#hidden_check_boxes{
+display:none;}
+
+/*footer*/
+#footer {
+background : #e1e2c0;
+width : 800px;
+border-top-width:4px;
+border-top-style:solid;
+border-top-color:#c0c663;}
+
+/*publish resume*/
+#publishacutal {
+width: 780px;
+border:1px solid black;	
+background : white;
+font-family:"Times New Roman", Times, serif;
+min-height: 950px;}
+
+#publishacutal2{
+width: 570px;
+background : white;}
+
+/*static menu*/
+#floatMenu {
+position:absolute;
+top:150px;
+left:50%;
+margin-left:-397px;
+width:185px;
+}
+/*
+#floatMenuItemTOP {
+border:1px solid #c0c663;
+border-left:6px solid #c0c663;
+padding:5px 5px 5px 8px;}
+*/
+#floatMenuItem {
+
+padding:4px 4px 4px 7px;
+
+}
+
+/*Web Publish styles*/
+
+.ProfileHeading {
+font-size:medium; 
+margin-top:3px;
+margin-bottom:5px;}
+
+.DocManagerHeadings {
+font-family:helvetica, arial, sans-serif;
+font-size:15px;
+text-decoration:underline; 
+
+}
+
+
+
+

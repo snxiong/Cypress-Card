@@ -1,0 +1,230 @@
+			body {margin: 0px; padding: 0;}
+			
+			h3 {
+				color: black;
+				font-family: 'Montserrat', sans-serif;
+				margin-left: 5px;
+			}	
+			
+			.link_nav {
+				border:none;
+				color:black;
+				font-size:18px;
+				font-family: Oswald, sans-serif;
+				text-decoration:none;				
+			}	
+			
+			#center-header-title {
+				display: block;
+				width: 100%;
+				margin: auto;	
+				font-size: 35px;
+				font-family: 'Libre Baskerville', serif;
+			}		
+			
+			#center-header-text {
+				display: block;
+				width: 60%;
+				margin: auto;
+				font-size: 16px;
+				font-family: 'Libre Baskerville', serif;
+			}	
+
+			.menu-text {
+				text-decoration:none;
+				font-size: 16px;
+				font-family: Oswald, sans-serif;
+			}	
+			
+
+
+
+			#container {
+				max-width: 1500px;
+				width: 100%;
+				margin: 0 auto;				
+				position: relative;
+			}
+
+			#banner-container {
+				max-width: 1500px;
+				width: 100%;
+				height: 100px;
+				margin: 0 auto;
+						
+			}			
+			
+			#tablet-container {
+				max-width: 1500px;
+				width: 100%;
+				margin: 0 auto;					
+			}
+			
+			#header {
+				max-width: 1500px;
+				width: 100%;				
+				background-color:white;
+				text-align:center;
+				margin: 0px;
+			}
+			
+			#banner {
+				max-width: 100%;
+				position: absolute;
+				left: 0px;
+			}	
+			
+			#admin_link {
+				position: absolute; 
+				top: 25px;
+				left: 300px;
+			}				
+
+			#contact_link {
+				position: absolute; 
+				top: 25px;
+				left: 400px;
+			}
+			
+			#about_link {
+				position: absolute; 
+				top: 25px;
+				left: 500px;
+			}			
+			
+			#support_link {
+				position: absolute; 
+				top: 25px;
+				left: 600px;
+			}	
+			
+			#login_button {
+				position: absolute; 
+				top: 5px;
+				right: 5px;
+			}	
+			
+			#horizon {
+				display: block;
+				max-width: 100%;
+			}	
+
+			#tablet {
+				width: 33.3333%;
+				left: 33.3333%;
+				right: 33.3333%;
+			}	
+			
+			.button_large{
+				border:none;
+				color:#FFFFFF;
+				font-size:15px;
+				padding:15px 18px;
+				background-color:#bfc466;
+				-webkit-border-radius:30px;
+				-moz-border-radius:30px;
+				-ms-border-radius:30px;
+				border-radius:30px;
+				display:block;
+				width:186px;
+				display:inline-block;
+				text-align:center;
+				font-family: helvetica, sans-serif;
+				font-weight:600;
+				font:600;
+				text-decoration:none;
+			}
+			
+			.button_large:hover{
+				border:none;
+				color:white
+				text-decoration:none;
+				-webkit-border-radius:30px;
+				-moz-border-radius:30px;
+				-ms-border-radius:30px;
+				border-radius:30px;
+				background-color:#b2c863;
+				text-decoration:none;
+			}
+			
+			.button_nav{
+				border:none;
+				color:#FFFFFF;
+				font-size:18px;
+				padding:15px 18px;
+				background-color:#a29191;
+				-webkit-border-radius:30px;
+				-moz-border-radius:30px;
+				-ms-border-radius:30px;
+				border-radius:30px;
+				display:block;
+				width:156px;
+				float:right;
+				display:inline-block;
+				text-align:center;
+				font-family: helvetica, sans-serif;
+				font-weight:600;
+				font:600;
+				text-decoration:none;
+			}
+			
+			.button_nav:hover{
+				border:none;
+				color:white
+				text-decoration:none;
+				-webkit-border-radius:30px;
+				-moz-border-radius:30px;
+				-ms-border-radius:30px;
+				border-radius:30px;
+				background-color:#DD6512;
+				text-decoration:none;
+			}			
+			
+			.panel {
+			  background: #2C3E50;
+			  z-index: 9999;
+			  position: fixed;
+			  left: -15.625em; /*or width of your navigation panel*/
+			  width: 15.625em; /*should match the above value*/
+			}
+
+			.panel ul {
+			  border-top: 2px solid #34495D;
+			}
+
+			.panel a {
+			  display: block;
+			  border-bottom: 2px solid #34495D;
+			  padding: 1em;
+			}
+
+			.panel a:link,
+			.panel a:visited {
+			  color: #fff;
+			}
+
+			.panel a:hover,
+			.panel a:active {
+			  background: #25B89A;
+			}			
+			.menu-link {
+			  position: absolute;
+			  font-size: 2.5em;
+			  top: 5px;
+			  right: 5px;
+			  display: none;
+			}
+
+			.menu-link:link,
+			.menu-link:visited {
+			  color: #fff;
+			  background: rgba(0, 0, 0, .4);
+			  border-radius: 4px;
+			  padding: .2em .4em;
+			}
+
+			.menu-link:hover,
+			.menu-link:active {
+			  color: #25B89A;
+			  background: rgba(0, 0, 0, .6);
+			}				

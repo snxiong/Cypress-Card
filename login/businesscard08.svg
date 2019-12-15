@@ -1,0 +1,81 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" width="750" height="375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style>
+	text {
+		fill: #000000;
+		font-family: Helvetica;
+		font-size: 15px;
+	}
+	
+	.name_c {
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	div {
+		display: none;
+	}
+	
+	.company_c {
+		font-weight: bold;
+		font-size: 20px;
+	}
+</style>
+
+<g>
+   <path class="color1" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M100 0 L0 90 L0 0 L100 0Z"> </path>
+   <path class="color2" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M200 0 L0 180 L0 90 L100 0 L200 0Z"> </path>
+   <path class="color3" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M300 0 L0 270 L0 180 L200 0 L300 0Z"> </path>   
+      
+   <path class="color1" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M400 0 L0 360 L0 270 L300 0 L400 0Z"> </path>  
+   <path class="color2" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M500 0 L90 375 L0 375 L0 360 L400 0 L500 0Z"> </path>  
+   <path class="color3" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M600 0 L180 375 L90 375 L500 0 L600 0Z"> </path>
+      
+   <path class="color1" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M700 0 L270 375 L180 375 L600 0 L700 0Z"> </path>
+   <path class="color2" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M700 0 L750 0 L750 45 L360 375 L270 375 L700 0Z"> </path>   
+   <path class="color3" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M750 125 L470 375 L360 375 L750 45 L750 125Z"> </path>    
+      
+   <path class="color1" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M750 205 L560 375 L470 375 L750 125 L750 205Z"> </path>
+   <path class="color2" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M750 285 L650 375 L560 375 L750 205 L750 285Z"> </path>    
+   <path class="color3" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      d="M750 375 L740 375 L650 375 L750 285 L750 375Z"> </path> 
+      
+      
+   <rect fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-miterlimit="1"
+      x="75" y="50" width="600" height="275"></rect>
+</g>
+
+	<text class="name_c" x="100" y="75"></text>
+	<text class="position_c" x="100" y="95"></text>
+	<text class="company_c" x="100" y="155"></text>
+	<text class="city_c" x="100" y="295"></text>
+	<text class="state_c" x="100" y="315"></text>
+	<text class="phone_c" x="325" y="275"></text>
+	<text class="email_c" x="325" y="295"></text>
+	<text class="website_c" x="325" y="315"></text>
+	
+	<div class="name_c">300</div>
+	<div class="position_c">300</div>
+	<div class="company_c">300</div>
+	<div class="city_c">210</div>
+	<div class="state_c">210</div>
+	<div class="phone_c">350</div>
+	<div class="email_c">350</div>
+	<div class="website_c">350</div>
+	
+<g>
+	<image class="svglogo" x="515" y="75" width="150" height="150"></image>
+</g>
+</svg> 

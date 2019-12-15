@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width,initial-scale=0.8">
+	<title>Cypress Resume -Trial Password 1</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<link rel="shortcut icon" href="https://cypressresume.com/images/favicon.ico">	
+	<link href="Cypress%20Resume%20-Trial%20Password%201_files/style.css" rel="stylesheet" type="text/css">	
+	<link rel="stylesheet" type="text/css" href="Cypress%20Resume%20-Trial%20Password%201_files/stickytooltip.css">
+	<link href="Cypress%20Resume%20-Trial%20Password%201_files/css.css" rel="stylesheet" type="text/css">	
+
+	<script async="" src="Cypress%20Resume%20-Trial%20Password%201_files/analytics.js"></script><script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/jquery_002.js"></script>	
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/jquery_004.js"></script>		
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/animatedcollapse.js"></script>		
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/animatedcollapseaddDiv.js"></script>		
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/jquery_003.js"></script>		
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/jquery.js"></script>		
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/jscolor.js"></script>
+	<script type="text/javascript" src="Cypress%20Resume%20-Trial%20Password%201_files/stickytooltip.js"></script>
+
+	<script type="text/javascript">
+		var prompt_run_once = '';
+		
+		$( window ).load(function() {
+			
+			prompt_run_once = localStorage.getItem("prompt_run_once");
+			
+			if (prompt_run_once == null) {
+				
+				var elem = document.getElementById("mobile_prompt");
+				var theCSSprop = window.getComputedStyle(elem, null).getPropertyValue("display");
+				
+				if (theCSSprop == 'block') {
+					
+					$.blockUI({ 
+					
+						message: '<div style="text-align: center; display:block;justify-content:center; font-size: 1.4em;"><h1 style="font-family: Helvetica, Sans-serif;">It looks like you&#39;re using a mobile device</h1><br><br><a href="javascript:void(0);" onClick="document.forms.select_mode_mobile.submit();"  title="Mobile/touch version" class="document_manager_menu_button" style="width: 35%; font-size: 1.5em;"><span style="position:relative; bottom: 13px;">Use Mobile Website</span></a><br><br><div style=""><a href="javascript:void(0);" onClick="$.unblockUI();" title="Desktop version" class="document_manager_menu_button" style="width: 35%; font-size: 1.5em;"><span style="position:relative; bottom: 13px;">Use Desktop Website</span></a></div><br><br>',
+						
+						css: { 
+							top: '0%',
+							left: '0%',
+							width: '100%',
+							height: '100%',
+							border: 'none'
+						} 
+							
+					});  
+					
+				} 
+			}
+			
+			localStorage.setItem("prompt_run_once", "1");	
+								
+		});	
+	
+	
+	</script>	
+
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			setTimeout("MainFormBounceDirector()", 80);
+		});		
+		$(document).ready(function(){
+			setTimeout("DoTheCheck()", 10);
+		});
+	$(document).ready(function(){
+	setTimeout("CoverletterFormDirector()", 60);
+	});
+	$(document).ready(function(){
+	setTimeout("SpecificStatmentCount()", 65);
+	});
+	$(document).ready(function(){
+	setTimeout("MinMaxStatements()", 65);
+	});
+	$(document).ready(function(){
+	setTimeout("MinMaxDivStatements()", 65);
+	});
+	$(document).ready(function(){
+	setTimeout("MinMaxAbilities()", 65);
+	});	
+	$(document).ready(function(){
+	setTimeout("MinMaxTech()", 65);
+	});		
+	$(document).ready(function(){
+	setTimeout("TechStatmentCount()", 70);
+	});
+	$(document).ready(function(){
+	setTimeout("AbilityStatmentCount()", 72);
+	});		
+	$(document).ready(function(){
+	animatedcollapse.hide('hidejobs');
+	});		
+	$(document).ready(function(){
+	animatedcollapse.hide('hidecollege');
+	});	
+	$(document).ready(function(){
+	animatedcollapse.hide('additionalsections');
+	});	
+																		
+	
+	     function PleaseWait(Input) {
+		  
+			if (Input == 1) {
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Proceeding to Step 2...</h1>' });
+			} else if (Input == 2){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Proceeding to Step 3...</h1>' });
+			} else if (Input == 3){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Creating Your Resume...</h1>' });
+			} else if (Input == 4){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Creating Your References Sheet...</h1>' });
+			} else if (Input == 5){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Searching...</h1>' });
+			} else if (Input == 6){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Going Back to Step 1...</h1>' });	
+			} else if (Input == 7){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Going Back to Step 2...</h1>' });	
+			} else if (Input == 8){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Going Back to Step 3...</h1>' });	
+			} else if (Input == 9){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Going to Home Page...</h1>' });
+			} else if (Input == 10){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Going to Document Manager...</h1>' });
+			} else if (Input == 11){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Clearing Form...</h1>' });
+			} else if (Input == 12){
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Creating Your Cover Letter...</h1>' });			
+			} else {
+				$.blockUI({ message: '<h1><img src="/images/loading.gif" /> Loading...</h1>' });
+			}
+
+			
+
+			
+
+			
+			
+
+
+        }
+		
+		function Popup(url) {
+			
+			newwindow=window.open(url);
+			if (window.focus) {newwindow.focus()}
+			return false;
+
+		}
+	</script>	
+</head>	
+	
+						
+		<body style="padding: 0; margin:0px;" align="center" vlink="black" link="black" bgcolor="#cccccc" alink="black" onload="loadData();">
+		
+		<!--[if IE 6]>
+		<script type="text/javascript">
+		alert('Internet Explorer version 6 is not supported, please update your browser. =/');
+		</script>
+		<![endif]-->
+
+			<div align="center">
+			
+				<div id="banner" style="background-image: url('banner.jpg'); width: 800px; height:100px; position:relative; margin-top: 0;" align="right">
+				
+
+						<div id="institutionname" style="position:relative; right: 50px; top: 20px;"><i><span class="menutext">Trial Password 1</span></i></div>
+							
+							<style type="text/css">							
+								#AdminButton:hover img {box-shadow: 0px -2px 12px #888;}
+								#ContactButton:hover img {box-shadow: 0px -2px 12px #888;}
+								#AboutButton:hover img {box-shadow: 0px -2px 12px #888;}
+								#SupportButton:hover img {box-shadow: 0px -2px 12px #888;}
+								#LogoutButton:hover img {box-shadow: 0px -2px 12px #888;}
+
+								.bufferbar{
+									height:30px;
+								}
+								
+								
+								welcomesection{
+									height: 300px;
+									width: 100px;
+								}
+								
+								#employcontainer {
+									height: 40px;
+									margin-bottom: 5px;
+								}
+								
+								#employcontainer input[type="radio"] {
+									opacity: 0;
+									position: fixed;
+									width: 0;
+								}
+								
+								#employcontainer label {
+									width: 100px;
+									display: inline-block;
+									background-color: #c0c663;
+									padding: 5px 5px 5px 5px;
+									border-radius: 5px;
+									font-family: verdana;
+									font-size: 16px;
+									text-align: center;
+									color: #ffffff;
+									cursor: pointer;
+								}
+
+								#employcontainer label:hover {
+									background-color: #8ea149;
+								}
+								
+								.inputfield div {
+									margin-bottom: 2px;
+									padding-top: 0px;
+									padding-bottom: 0px;
+									height: 20px;
+								}
+								
+								.fieldname {
+									display: inline-block;
+									width: 110px;
+								}
+								
+								.inputbox {
+									display: inline-block;
+								}
+								
+								.buttonbox {
+									display: inline-block;
+								}
+								
+								.buttonbox button {
+									border-radius: 5px;
+									font-family: verdana;
+									font-size: 16px;
+									cursor: pointer;
+								}
+								
+								.button_b {
+								background-color: #000000;
+									color: #ffffff;
+								}
+								
+								.button_b:hover {
+									background-color: #666666;
+								}
+								
+								.button_w {
+									background-color: #ffffff;
+									color: #000000;
+								}
+								
+								.button_w:hover {
+									background-color: #dddddd;
+								}
+								
+								.body_nav_buttons{
+									border:none;
+									color:#FFFFFF;
+									font-size:15px;
+									background-color:#c0c663;
+									vertical-align: middle;
+									border-top-right-radius:6px;
+									border-top-left-radius:6px;
+									display:block;
+									width:70px;
+									height: 25px;
+									display:inline-block;
+									text-align:center;
+									font-family: helvetica, sans-serif;
+									font-weight:600;
+									font:600;
+									text-decoration:none;
+								}
+										
+								.body_nav_buttons:hover{
+									
+									color:white
+									text-decoration:none;
+									border-top-right-radius:6px;
+									border-top-left-radius:6px;
+									background-color:#b1c763;
+									text-decoration:none;
+								}	
+
+
+								.box_button {
+									border:none;
+									color:#FFFFFF;
+									font-size:15px;
+									padding:6px 8px;
+									background-color:#c0c663;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									max-width:136px;
+									width: 100%;
+									display:inline-block;
+									text-align:center;
+									font-family: helvetica, sans-serif;
+									font-weight:600;
+									font:600;
+									text-decoration:none;
+									position: relative;
+									top: 10px;	
+
+								}
+
+								.box_button:hover {
+									border:none;
+									color:white
+									text-decoration:none;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									background-color:#b1c763;
+									text-decoration:none;
+								}
+
+
+								.go_button {
+									border:none;
+									color:#FFFFFF;
+									font-size:15px;
+									padding:10px 12px;
+									background-color:#c0c663;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									max-width:186px;
+									width: 40%;
+									display:inline-block;
+									text-align:center;
+									font-family: helvetica, sans-serif;
+									font-weight:600;
+									font:600;
+									text-decoration:none;
+									position: relative;
+									top: 10px;
+									
+								}
+
+								.go_button:hover {
+									border:none;
+									color:white
+									text-decoration:none;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									background-color:#b1c763;
+									text-decoration:none;
+								}
+
+								.static_menu_button {
+									
+									border:none;
+									color:#FFFFFF;
+									font-size:15px;
+									padding:10px 12px;
+									background-color:#c0c663;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									max-width:186px;
+									width: 65%;
+									display:inline-block;
+									text-align:center;
+									font-family: helvetica, sans-serif;
+									font-weight:600;
+									font:600;
+									text-decoration:none;
+									position: relative;
+									height: 2%;
+									margin-top: 1%;
+									vertical-align: middle;
+									
+								}
+
+								.static_menu_button:hover {
+									border:none;
+									color:white
+									text-decoration:none;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									background-color:#b1c763;
+									text-decoration:none;
+								}
+
+								
+								.document_manager_menu_button {
+									border:none;
+									color:#FFFFFF;
+									font-size:15px;
+									padding:10px 12px;
+									background-color:#c0c663;
+									-webkit-border-radius:20px;
+									-moz-border-radius:20px;
+									-ms-border-radius:20px;
+									border-radius:20px;
+									display:inline-block;
+									text-align:center;
+									font-family: helvetica, sans-serif;
+									font-weight:600;
+									font:600;
+									text-decoration:none;
+									position: relative;
+									height: 1px;
+									
+								}
+
+								.document_manager_menu_button:hover {
+									border:none;
+									color:white
+									text-decoration:none;
+									-webkit-border-radius:30px;
+									-moz-border-radius:30px;
+									-ms-border-radius:30px;
+									border-radius:30px;
+									background-color:#b1c763;
+									text-decoration:none;
+								}	
+								
+								@media only screen and (max-width: 900px) {
+									.test{
+										 width:300px;
+										 height:50px;
+									}
+									
+									#button_unempl{
+										
+										height:40px;
+										line-height:40px;
+									}
+									
+									#button_empl{
+										height:40px;
+										line-height:40px;
+									}
+									
+									.main{
+										width:900px;
+									}
+									#banner{
+										padding:0 50px;
+										background-size: cover;
+									}
+									#footer{
+										width:900px;
+										
+									}
+									
+									#employcontainer{
+										padding:10px 0px;
+									}
+									
+									#down_butt{
+										width:200px;
+										height:50px;
+									}
+									#email_button{
+										width:200px;
+										height:50px;
+									}
+									.bufferbar2{
+										
+									}
+									#footbuff{
+										height:10px;
+									}
+								}
+								
+							</style>	
+							
+							
+							
+							<a href="https://cypressresume.com/admin/" onclick="popup = window.open('admin/', 'NavBarPopupPage1', 'height=700,width=820,scrollbars=yes,resizable=yes'); return false" target="_blank" style="position: absolute; bottom: 0px; right:240px;">
+								<span class="body_nav_buttons"><span style="position:relative; top: 5px;">Admin</span></span>
+							</a>
+							<a href="https://cypressresume.com/contact/" onclick="popup = window.open('contact/', 'NavBarPopupPage2', 'height=550,width=810,scrollbars=yes,resizable=yes'); return false" target="_blank" style="position: absolute; bottom: 0px; right:160px;">	
+								<span class="body_nav_buttons"><span style="position:relative; top: 5px;">Contact</span></span>
+							</a>
+							<a href="https://cypressresume.com/support/" onclick="popup = window.open('support/', 'NavBarPopupPage4', 'height=550,width=810,scrollbars=yes,resizable=yes'); return false" target="_blank" style="position: absolute; bottom: 0px; right:80px;">	
+								<span class="body_nav_buttons"><span style="position:relative; top: 5px;">Support</span></span>
+							</a>
+							<a href="https://cypressresume.com/index.php?logout=1" title="Click here to logout" style="position: absolute; bottom: 0px; right:0px;">		
+								<span class="body_nav_buttons"><span style="position:relative; top: 5px;">Logout</span></span>
+							</a>	
+				
+				</div>
+
+				<form name="logout" id="logout" action="../index.php" method="post"><input type="hidden" name="logoutyes" id="logoutyes" value="1"></form>
+									<form id="breadcrumbsstartover" name="breadcrumbsstartover" action="../index.php" method="post">
+										<input type="hidden" name="startover" value="1">										
+									</form>
+									<form id="breadcrumbsstyle" name="breadcrumbsstyle" action="../index.php" method="post">
+										<input type="hidden" name="breadcrumbsstyle" value="1">										
+									</form>									
+									<form id="breadcrumbsstep0" name="breadcrumbsstep0" action="../index.php" method="post">
+										<input type="hidden" name="startover" value="1">										
+									</form>
+									<form id="breadcrumbsstep1" name="breadcrumbsstep1" action="../index.php" method="post">
+										<input type="hidden" name="step1" value="1">
+									</form>
+									<form id="breadcrumbsstep2" name="breadcrumbsstep2" action="../index.php" method="post">
+										<input type="hidden" name="step2" value="1">
+									</form>
+									<form id="breadcrumbsedit" name="breadcrumbsedit" action="../index.php" method="post">
+										<input type="hidden" name="breadcrumbsedit" value="1">										
+									</form>
+									<form id="GoToDocManager" name="GoToDocManager" action="../index.php" method="post">
+										<input type="hidden" name="GoToDocManager" value="1">										
+									</form>
+
+
+
+				
+
+				<div class="main">
+					
+					<div  id="welcome_container" style="position:relative; height: 800px;" align="center">
+						
+						<div class="bufferbar"></div>
+						
+						<div id="employcontainer" align="left">
+							<div style="display: inline-block; width: 170px;"></div>
+							
+							<div class="fieldname" align="right" style="width: 130px;">Employment Status: </div>
+							<label id="button_unempl" style="width: 120px;">
+								<input type="radio" name="employment"
+								onclick="handleEmployButtons('button_unempl'); markSelectedEmployButton('button_unempl');">Unemployed
+							</label>
+							
+							<label id="button_empl">
+								<input type="radio" name="employment"
+								onclick="handleEmployButtons('button_empl'); markSelectedEmployButton('button_empl');">Employed
+							</label>
+						</div>
+						<div class="bufferbar2"></div>
+						
+						<div id="inputfieldscontainer" style="height: 220px;">
+						
+							<div class="inputfield">
+								<div class="fieldname" align="right">Name: </div>
+								<div class="inputbox">
+									<input type="text" id="firstname" autocomplete="off" oninput="fillTextField('firstname','name_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('name_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('name_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+
+							<div class="inputfield">
+								<div class="fieldname" align="right">Position: </div>
+								<div class="inputbox">
+									<input type="text" id="positionname" autocomplete="off" oninput="fillTextField('positionname','position_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('position_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('position_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">Company Name: </div>
+								<div class="inputbox">
+									<input type="text" id="companyname" autocomplete="off" oninput="fillTextField('companyname','company_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('company_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('company_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">City: </div>
+								<div class="inputbox">
+									<input type="text" id="cityname" autocomplete="off" oninput="fillTextField('cityname','city_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('city_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('city_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">State: </div>
+								<div class="inputbox">
+									<input type="text" id="statename" autocomplete="off" oninput="fillTextField('statename','state_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('state_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('state_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">Phone: </div>
+								<div class="inputbox">
+									<input type="text" id="phoneNum" autocomplete="off" oninput="fillTextField('phoneNum','phone_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('phone_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('phone_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">Email: </div>
+								<div class="inputbox">
+									<input type="text" id="emailname" autocomplete="off" oninput="fillTextField('emailname','email_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('email_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('email_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+							
+							<div class="inputfield">
+								<div class="fieldname" align="right">Website: </div>
+								<div class="inputbox">
+									<input type="text" id="websitename" autocomplete="off" oninput="fillTextField('websitename','website_c');">
+								</div>
+								<div class="buttonbox">
+									<button class="button_b" type="button" onclick="fillTextColor('website_c','#000000');">BLACK</button>
+									<button class="button_w" type="button" onclick="fillTextColor('website_c','#ffffff');">WHITE</button>
+								</div>
+							</div>
+						
+						</div>
+						
+						<div class="bufferbar"></div>
+						
+						<!-- Needed to measure the length of input strings on the live preview -->
+						<span id="measure" style="visibility: hidden; white-space: nowrap; position: absolute; font-family: Helvetica; font-size: 20px;"></span>
+						
+						<div id="cardContainer" style="width: 750px; height: 375px; position: relative;
+							margin-left: auto; margin-right: auto; border: 1px solid #d3d3d3;">
+							<object id="cardcontainerimg" class="svgClass" type="image/svg+xml"></object> <!-- data="./preview.svg" -->
+						</div>
+						
+						<!-- This canvas is needed for converting the business card svg to a png image. -->
+						<canvas id="imagecreator" y="300" width="750" height="375" style="position: absolute; display: none;"></canvas>
+
+						<div>
+							<br>
+							
+							<a id="download_button">
+								<button id = "down_butt" onclick="createCanvasData('1');">Download</button>
+							</a>
+							
+							<button id="email_button" type="button" onclick="createCanvasData('2');">Send by Email</button>
+							<input type="text" id="email_textfield" autocomplete="off" style="width: 250px;">
+						</div>
+
+						<!--- TEXT INPUT SCRIPT AW --->
+						<script src="inputText.js" type="application/javascript"></script>
+						
+						<!--- SELECTION SCRIPT AW --->
+						<script src="selection.js" type="application/javascript"></script>
+						
+						<!--- LOAD SCRIPT AW --->
+						<script src="saveLoad.js" type="application/javascript"></script>
+						
+						<!--- SEND EMAIL SCRIPT AW --->
+						<script src="sendEmail.js" type="application/javascript"></script>
+						
+						<!--- OBJECT EDIT SCRIPT AW --->
+						<script src="objectEdit.js" type="application/javascript"></script>
+						
+						<!--- CREATE IMAGE SCRIPT AW --->
+						<script src="createImage.js" type="application/javascript"></script>
+					<div id="footbuff">
+					</div>
+					<div id="footer">
+						<br>
+						<div style="" align="center" >
+						
+
+							
+						
+							<span>&#169; Copyright 2019 Cypress Information Services LLC&nbsp;|&nbsp; All Rights Reserved.</span><br>
+								<span>
+									<a style="color:grey;">English</a>/<a href="javascript:void(0);" onclick="document.forms.langselectspanish.submit();" style="color:blue; text-decoration:underline;">Espa&#241;ol</a>
+								</span>
+								<span style="font-weight:heavy;">|</span>
+								<span>
+									<a style="color:grey;">Desktop</a>/<a href="javascript:void(0);" onclick="document.forms.select_mode_mobile.submit();" style="color:blue; text-decoration:underline;">Mobile (Beta)</a>
+								</span>	
+								<span style="font-weight:heavy;">|</span>
+								<span>
+									<a href="https://creativecommons.org/licenses/by-sa/3.0/" style="color:blue; text-decoration:underline;">Logo License Information</a>
+								</span>	
+							<form name="langselectspanish" action="../index.php" method="post"><input type="hidden" name="lang" id="lang" value="spanish"></form>
+							<form name="langselectenglish" action="../index.php" method="post"><input type="hidden" name="lang" id="lang" value="english"></form>							
+							<form name="select_mode_mobile" action="../index.php" method="post"><input type="hidden" name="mode" id="mode" value="mobile"></form>							
+							<form name="select_mode_desktop" action="../index.php" method="post"><input type="hidden" name="mode" id="mode" value="desktop"></form>							
+					
+						</div>
+						<br>	
+					</div>	
+				<!--close div align center-->	
+				</div>
+				<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-77934802-1', 'auto');
+				  ga('send', 'pageview');
+
+				</script>			
+				
+
+	</body></html>
